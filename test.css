@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+}
+header {
+    background-color: tomato;
+    height: 100px;
+    position: relative;
+}
+
+main {
+    height: 500px;
+}
+
+.left, .content, .right {
+    float: left;
+    height: 500px;
+}
+
+.left {
+    width: 20%;
+    background-color: rgb(203, 235, 235);
+}
+
+.content {
+    width: 60%;
+    background-color: thistle;
+}
+
+.right {
+    width: 20%;
+    background-color: wheat;
+}
+
+footer {
+    background-color: yellowgreen;
+    height: 100px;
+}
+
+nav {
+    position: absolute;
+    margin: 20px;
+}
+ul li {
+    display: inline;
+    margin: 10px;
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+}
+
+.content {
+    padding: 20px;
+}
+
+@media screen and (max-width:500px){
+    .left {
+        width: 100%;
+        height: 100px;
+        background-color: teal;
+    }
+    
+    .content {
+        width: 100%;
+        background-color: thistle;
+    }
+    
+    .right {
+        width: 100%;
+        height: 100px;
+        background-color: wheat;
+    }
+}
